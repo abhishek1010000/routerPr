@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    background-color: rgb(17, 24, 39);
+}
+.logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    gap: 15px;
+}
+ul{
+    display: flex;
+    gap: 25px;
+}
+ul li{
+    list-style: none;
+    color: white;
+    font-size: 18px;
+}
+ul li {
+    text-decoration: none;
+}
+button{
+    padding: 10px 15px;
+    background: #2563EB;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+li:hover{
+    color: #2563EB;
+}
